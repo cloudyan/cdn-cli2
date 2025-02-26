@@ -64,5 +64,6 @@ npx cdn-cli deploy ./examples/dist ./cdn/dist
 
 - [前端CLI脚手架思路解析](https://juejin.cn/post/6879265583205089287)
 - https://www.npmjs.com/package/cdn-cli
+  - https://github.com/chooin/cdn-cli
 - https://www.npmjs.com/package/webpack-alioss-plugin
 - https://github.com/aikefang/qiniu-tool
