@@ -1,3 +1,5 @@
+import
+
 export class Qiniu {
   constructor(options = {}) {
 
