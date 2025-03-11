@@ -17,7 +17,8 @@
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "npx cdn-cli deploy ./examples/dist ./cdn/dist"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -29,10 +30,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ali-oss": "6.16.0",
+    "ali-oss": "6.22.0",
     "chalk": "5.0.0",
     "co": "4",
     "commander": "8.3.0",
+    "cos-nodejs-sdk-v5": "2.14.6",
     "dir-glob": "3.0.1",
     "download": "8.0.0",
     "fs-extra": "10.0.0",
@@ -47,5 +49,9 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "typescript": "5.8.2"
   }
 }

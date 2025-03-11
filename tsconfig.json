@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "outDir": "lib",
+    "skipLibCheck": false,
+    "types": ["node"]
+  },
+  "exclude": ["node_modules/**/*"],
+  "include": ["src/**/*", "typings.d.ts"]
+}
